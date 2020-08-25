@@ -158,8 +158,14 @@ class Food{
 let play = true;
 let grid = document.querySelector(".grid");
 
-let nrows = Math.floor((Math.min(window.innerWidth, window.innerHeight) - 200)/30);
-let ncols = Math.floor((Math.min(window.innerWidth, window.innerHeight) - 200)/30);
+let nrows, ncols;
+if (window.innerHeight < window.innerWidth){
+	nrows = Math.floor((window.innerHeight - 200)/30);
+	ncols = Math.floor((window.innerHeight - 200)/30);
+}else{
+	nrows = Math.floor((window.innerHeight - 200)/30);
+	ncols = Math.floor((window.innerWidth - 100)/30);
+}
 
 for (let i=0; i<nrows; i++){
 	let row = document.createElement("div");
