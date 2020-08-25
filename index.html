@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class = "scoreboard">
+		<span class="current-score">
+			<i class="fas fa-square"></i>
+			<span>0</span>
+		</span>
+		<span class="highscore">
+			<i class="fas fa-trophy"></i>
+			<span>0</span>
+		</span>
+	</div>
+	<div class="grid">
+		<div class="instruction">
+			<div>
+				<div class="arrow-keys empty"></div>
+				<div class="arrow-keys"><i class="fas fa-caret-up"></i></div>
+				<div class="arrow-keys empty"></div>
+			</div>
+			<div>
+				<div class="arrow-keys"><i class="fas fa-caret-left"></i></div>
+				<div class="arrow-keys"><i class="fas fa-caret-down"></i></div>
+				<div class="arrow-keys"><i class="fas fa-caret-right"></i></div>
+			</div>
+		</div>
+		<div class="hand"> <i class="fas fa-hand-point-up"></i> </div>
+	</div>
+	<div class="stats">
+		<div class="sky">
+			<span class="stats-score">
+				<i class="fas fa-square"></i>
+				<span></span>
+			</span>
+			<span class="stats-highscore">
+				<i class="fas fa-trophy"></i>
+				<span></span>
+			</span>
+			<span class="new-highscore"></span>
+		</div>
+		<div class="checks">
+			<button>Play Again?</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
