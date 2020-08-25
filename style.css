@@ -19,12 +19,12 @@ body{
 	position: absolute;
 	top: 50px;
 	right: 50px;
-	height: 16vmin;
-	width: 16vmin;
+	height: 120px;
+	width: 120px;
 	padding: 5px;
 	border-radius: 10px;
 	background: rgb(0,0,0,0.6);
-	font-size: 3.3vmin;
+	font-size: 20px;
 
 	display: flex;
 	flex-direction: column;
@@ -36,8 +36,8 @@ body{
 }
 
 .arrow-keys{
-	width: 2.7vmin;
-	height: 2.7vmin;
+	width: 21px;
+	height: 21px;
 	margin: 2px;
 	background: rgb(255,255,255,0.9);
 	color: rgb(0,0,0,0.6);
@@ -58,7 +58,7 @@ body{
 	border-radius: 10px;
 	background: transparent;
 	color: rgb(255,255,255,0.9);
-	font-size: 8vmin;
+	font-size: 60px;
 
 	display: flex;
 	flex-direction: column;
