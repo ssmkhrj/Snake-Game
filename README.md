@@ -1,2 +1,2 @@
 # Snake-Game
-Live Demo: git remote add origin https://github.com/ssmkhrj/Snake-Game.git
+Live Demo: git remote add origin https://ssmkhrj.github.io/Snake-Game/
